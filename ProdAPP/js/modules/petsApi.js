@@ -1,4 +1,4 @@
-const PETS_BASE_URL = "https://javascript33g-default-rtdb.firebaseio.com/pets";
+const PETS_BASE_URL = "https://ejerciciopost-default-rtdb.firebaseio.com/pets";
 
 const createPet = async (petObject) => {
   let response = await fetch(`${PETS_BASE_URL}/.json`, {
